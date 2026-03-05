@@ -7,7 +7,7 @@ fetch("content.json")
       const link = document.createElement("a");
 
       link.textContent = file;
-      link.href = "/content/"+file+".pdf";
+      link.href = "content/"+file+".pdf";
 
       container.appendChild(link);
       container.appendChild(document.createElement("br"));
